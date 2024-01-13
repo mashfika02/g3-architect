@@ -193,6 +193,7 @@ font-size: 45px;
 font-weight: 700;
 line-height: normal;
 }
+
 .sponsor-img-container{
   display: flex;
   justify-content: space-evenly;
@@ -203,7 +204,71 @@ line-height: normal;
 .sponsor-img-container img{
   width: 165px;
 }
+ /* feature section styles */
+ .feature{
+  display: flex;
+  margin-top:130px ;
+  gap: 130px;
+ }
+.feature-img img{
 
+  height: 90%; 
+   margin-left: 90px; 
+}
+ .feature-title{
+color:  #131313;
+font-size: 45px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+ }
+ .feature .feature-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.card-title{
+color: #131313;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+
+}
+.feature-content .card{
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+/* 10 year badge */
+.ten-year-badge{
+  border-radius: 8px;
+background: #FF900E;
+color: #FFF ;
+width: 342px;
+padding: 40px;
+text-align: center;
+position: relative;
+bottom: 100px;
+/* left: -90px; */
+
+
+}
+
+.ten-year-badge h2{
+text-align: center;
+font-size: 4rem;
+font-weight: 700;
+line-height: 70px;
+margin: 0px;
+}
+.ten-year-badge p{
+font-size:  1.5rem;
+font-weight: 500;
+line-height: 40px;
+margin: 0px;
+}
 
 
 
@@ -222,7 +287,7 @@ line-height: normal;
         padding: 20px;
         
     }
-    nav,.teams,.facts-card-container,.sponsor-img-container{
+    nav,.teams,.facts-card-container,.sponsor-img-container,.feature {
        
         flex-direction: column;
     }
@@ -243,15 +308,21 @@ line-height: normal;
     }
     .sponsors-content{
       position: relative;
-      left: 35px;
-      width: 300px;
+      left: 40px;
+      width: 400px;
       padding: 20px;
+     
     }     
      .teams-content{
       width:300px;
      }
+     .feature-img img{
+      width: 100%;
+      margin-left: 0px;
+     }
+
      
-    
+    }  
 
 
 /* medium device */
@@ -261,7 +332,7 @@ line-height: normal;
         padding: 20px;
     }
 
-    nav,.teams,.facts-card-container{
+    nav,.teams,.facts-card-container,.sponsor-img-container , .feature{
     
         flex-direction: column;
     }
@@ -281,5 +352,5 @@ line-height: normal;
     }
 
   }
-}
+
 
