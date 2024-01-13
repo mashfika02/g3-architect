@@ -1,6 +1,73 @@
 /* work-sans font */
   @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
-
+/* shared style */
   *{
     font-family: 'Work Sans', sans-serif;
   }
+.primary-btn{
+border-radius: 8px;
+border: none;
+background: #FF900E;
+width: 180px;
+height: 64px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+line-height: normal;
+}
+
+  /* header style */
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-title{
+color: #131313;
+font-size: 45px;
+font-weight: 700;
+
+  }
+  nav > ul{
+    display: flex;
+    
+  }
+  nav li{
+list-style: none;
+margin-right:30px;
+
+  }
+nav li a{
+text-decoration: none;
+color:  #424242;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px; 
+}
+
+/* banner styles */
+.banner-content{
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title{
+color:  #131313;
+font-size: 64px;
+font-weight: 700;
+line-height: normal;
+
+}
+.banner-paragraph{
+color:  #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
