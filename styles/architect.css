@@ -3,6 +3,7 @@
 /* shared style */
   *{
     font-family: 'Work Sans', sans-serif;
+    
   }
 .primary-btn{
 border-radius: 8px;
@@ -132,8 +133,13 @@ line-height: normal;
     line-height: normal;
 }
 /* facts style */
+.facts{
+  margin-top: 150px;
+}
+
 .facts-content{
   width: 542px;
+  margin-bottom: 100px;
 }
 
 .facts-title{
@@ -180,6 +186,7 @@ margin-top: 0px;
 
 .sponsors{
   text-align: center;
+  margin-top: 200px;
   
 }
 .sponsors-content{
@@ -270,6 +277,21 @@ line-height: 40px;
 margin: 0px;
 }
 
+/* footer style */
+.footer{
+  border-radius: 8px;
+background: #FFF4E7;
+margin: 130px 230px;
+text-align: center;
+padding: 30px;
+}
+.footer p{
+color:  #424242;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+}
+
 
 
 
@@ -320,6 +342,10 @@ margin: 0px;
       width: 100%;
       margin-left: 0px;
      }
+     .footer{
+      width: 300px;
+      margin: 65px;
+     }
 
      
     }  
@@ -344,6 +370,13 @@ margin: 0px;
      
       padding: 20px;
     }
+    .sponsors-content{
+      position: relative;
+      left: 210px;
+      width: 400px;
+      padding: 20px;
+     
+    }  
 
     .teams-content{
        width: 100%;
